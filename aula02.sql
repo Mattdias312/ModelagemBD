@@ -38,7 +38,8 @@ where Nomecidade ='Itapira'
 create table Tbl_Clientes(
 Codigo int identity(1,1) primary key,
 Nome varchar(100),
-UF varchar(2));
+UF varchar(2)
+);
 
 insert into Tbl_Clientes
 (Nome,UF)
