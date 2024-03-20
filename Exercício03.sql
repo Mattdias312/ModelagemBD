@@ -47,4 +47,4 @@ values
 select distinct cod_setor from Funcionario
 
 --b. Exiba o sobrenome concatenado com o código do setor, separado por vírgula e espaço, e nomeie a coluna como Empregado e Setor
-select ULTIMO_NOME + ', ' + CONVERT(VARCHAR,COD_SETOR) as 'Empregado e Setor',*  from Funcionario
+select ULTIMO_NOME + ', ' + CONVERT(VARCHAR,COD_SETOR) as 'Empregado e Setor', *  from Funcionario
